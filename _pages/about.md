@@ -13,8 +13,7 @@ redirect_from:
 
 I received my bachelor's degree in Computer Science and Technology from the School of Computer Science, Beijing Institute of Technology (BIT). Currently, I am a Ph.D. student in the combined master's–doctoral program at BIT, advised by Prof. Gangyi Ding. I am also conducting research at the Beijing Zhongguancun Academy, under the supervision of Prof. Liqiang Nie and Prof. Meng Liu. My research interests lie in embodied AI and affordance perception.
 
-📖 Education
-======
+<h2 id="education">📖 Education</h2>
 
 <ul class="education-list" markdown="0">
   <li>
@@ -45,8 +44,7 @@ I received my bachelor's degree in Computer Science and Technology from the Scho
   </li>
 </ul>
 
-🏆 Honors & Awards
-======
+<h2 id="honors">🏆 Honors & Awards</h2>
 
 **Grants**
 
@@ -57,18 +55,17 @@ I received my bachelor's degree in Computer Science and Technology from the Scho
 * 2022-2023: Master's Academic Scholarship
 * 2024-2025: Doctoral Academic Scholarship
 
-📝 Publications
-======
+<h2 id="publications">📝 Publications</h2>
 
 <div class="publication-year" markdown="0"><span class="publication-year__badge">2026</span></div>
 <ul class="publication-list" markdown="0">
   <li class="publication-item">
-    <p class="publication-item__title"><span class="publication-item__title-text">Task-Aware 3D Affordance Segmentation via 2D Guidance and Geometric Refinement</span></p>
+    <p class="publication-item__title"><a href="https://arxiv.org/pdf/2511.11702" target="_blank" rel="noopener noreferrer">Task-Aware 3D Affordance Segmentation via 2D Guidance and Geometric Refinement</a></p>
     <p class="publication-item__authors"><strong>Lian He</strong>, Meng Liu, Qilang Ye, Yu Zhou, Xiang Deng, Gangyi Ding</p>
     <p class="publication-item__venue">AAAI 2026 (CCF-A)</p>
   </li>
   <li class="publication-item">
-    <p class="publication-item__title"><span class="publication-item__title-text">SUGAR: Learning Skeleton Representation with Visual-Motion Knowledge for Action Recognition</span></p>
+    <p class="publication-item__title"><a href="https://arxiv.org/pdf/2511.10091" target="_blank" rel="noopener noreferrer">SUGAR: Learning Skeleton Representation with Visual-Motion Knowledge for Action Recognition</a></p>
     <p class="publication-item__authors">Qilang Ye, Yu Zhou, <strong>Lian He</strong>, Jie Zhang, Xuanming Guo, Jiayu Zhang, Mingkui Tan, Weicheng Xie, Yue Sun, Tao Tan, Xiaochen Yuan, Ghada Khoriba, Zitong Yu</p>
     <p class="publication-item__venue">AAAI 2026 (CCF-A)</p>
   </li>
@@ -77,7 +74,7 @@ I received my bachelor's degree in Computer Science and Technology from the Scho
 <div class="publication-year" markdown="0"><span class="publication-year__badge">2025</span></div>
 <ul class="publication-list" markdown="0">
   <li class="publication-item">
-    <p class="publication-item__title"><span class="publication-item__title-text">Research on Modeling and Simulation of Collective Mechanical Props Performance Behavior</span></p>
+    <p class="publication-item__title"><a href="https://dc-china-simulation.researchcommons.org/cgi/viewcontent.cgi?article=4491&amp;context=journal" target="_blank" rel="noopener noreferrer">Research on Modeling and Simulation of Collective Mechanical Props Performance Behavior</a></p>
     <p class="publication-item__authors"><strong>Lian He</strong>, Kexiang Huang, Dapeng Yan, Ruida Tang, Gangyi Ding</p>
   </li>
 </ul>
@@ -85,14 +82,20 @@ I received my bachelor's degree in Computer Science and Technology from the Scho
 <div class="publication-year" markdown="0"><span class="publication-year__badge">2024</span></div>
 <ul class="publication-list" markdown="0">
   <li class="publication-item">
-    <p class="publication-item__title"><span class="publication-item__title-text">Deep Learning Improved Social Force Model to Simulate Crowd in Varying Scenes</span></p>
+    <p class="publication-item__title"><a href="https://ieeexplore.ieee.org/abstract/document/10548157/" target="_blank" rel="noopener noreferrer">Deep Learning Improved Social Force Model to Simulate Crowd in Varying Scenes</a></p>
     <p class="publication-item__authors">Dapeng Yan, Chongzhi Bai, <strong>Lian He</strong>, Gangyi Ding</p>
   </li>
   <li class="publication-item">
-    <p class="publication-item__title"><span class="publication-item__title-text">Enhanced crowd dynamics simulation with deep learning and improved social force model</span></p>
+    <p class="publication-item__title"><a href="https://www.mdpi.com/2079-9292/13/5/934" target="_blank" rel="noopener noreferrer">Enhanced crowd dynamics simulation with deep learning and improved social force model</a></p>
     <p class="publication-item__authors">Dapeng Yan, Gangyi Ding, Kexiang Huang, Chongzhi Bai, <strong>Lian He</strong>, Longfei Zhang</p>
   </li>
 </ul>
+
+<h2 id="academic-services">🔍 Academic Services</h2>
+
+**Program Committee Member / Reviewer**
+
+* **Top-tier AI Conferences:** AAAI (2026)
 
 </div>
 

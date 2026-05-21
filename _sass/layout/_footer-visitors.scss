@@ -1,0 +1,38 @@
+/* Footer visitor stats and map widget */
+
+.page__footer-visitors {
+  text-align: center;
+  margin: 1.5em auto 0.5em;
+  padding: 0 1em;
+  max-width: 100%;
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  color: var(--global-text-color-light);
+  line-height: 1.6;
+
+  p {
+    margin: 0 0 0.65em;
+  }
+
+  &__copyright {
+    color: var(--global-text-color);
+    font-size: $type-size-6;
+  }
+
+  &__stats {
+    letter-spacing: 0.01em;
+  }
+
+  &__map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75em;
+    overflow: hidden;
+
+    script {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
