@@ -125,12 +125,12 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # hide RSS link in footer
   path                   : # blank (default) uses feed.xml
 
-# Footer visitor counter
+# Footer visitor counter (disabled — copyright is at end of homepage content)
 footer_visitors:
-  enabled                : true
+  enabled                : false
   copyright_name         : "Lian He"
 
 

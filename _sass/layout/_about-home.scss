@@ -147,4 +147,19 @@ html:has(.about-home) {
   #honors ~ ul:last-of-type {
     margin-bottom: 0.25em;
   }
+
+  &__copyright {
+    text-align: center;
+    margin: 2.5em 0 1.5em;
+    padding-top: 1.25em;
+    border-top: 1px solid var(--global-border-color);
+    font-size: $type-size-7;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+  }
+}
+
+/* Hide global footer bar; copyright lives at end of homepage content */
+.page__footer {
+  display: none;
 }

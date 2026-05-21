@@ -97,5 +97,7 @@ I received my bachelor's degree in Computer Science and Technology from the Scho
 
 * **Top-tier AI Conferences:** AAAI (2026)
 
+<p class="about-home__copyright">&copy; {{ site.time | date: '%Y' }} Lian He</p>
+
 </div>
 
