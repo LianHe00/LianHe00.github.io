@@ -1,0 +1,52 @@
+/* Education timeline (homepage) */
+
+.education-list {
+  list-style: disc;
+  margin: 0 0 1.5em 1.25em;
+  padding: 0;
+
+  > li {
+    margin-bottom: 1.25em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.education-item__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35em 0.5em;
+  line-height: 1.5;
+}
+
+.education-item__dates {
+  white-space: nowrap;
+  color: var(--global-text-color);
+}
+
+.education-item__sep {
+  color: var(--global-text-color-light);
+}
+
+.education-item__logo {
+  width: 1.35em;
+  height: 1.35em;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.education-item__degree {
+  font-weight: 700;
+}
+
+.education-item__org {
+  display: block;
+  margin-top: 0.2em;
+  color: var(--global-text-color);
+  line-height: 1.45;
+}
