@@ -132,8 +132,8 @@ atom_feed:
 footer_visitors:
   enabled                : true
   copyright_name         : "Lian He"
-  clustrmaps_id          : "HIPqhW-ZYzFpNlSvMArfRBt9uu4ZDyE2yGvMsRe-LMw&cl=ffffff&w=a"        # paste your map id from ClustrMaps dashboard (d= parameter)
-  clustrmaps_width       : 500
+  clustrmaps_id          : "HIPqhW-ZYzFpNlSvMArfRBt9uu4ZDyE2yGvMsRe-LMw"
+  clustrmaps_width       : 280
 
 
 # SEO Related

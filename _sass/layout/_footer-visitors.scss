@@ -2,16 +2,16 @@
 
 .page__footer-visitors {
   text-align: center;
-  margin: 2em auto 1.5em;
-  padding: 0 1em 1em;
-  max-width: 100%;
+  margin: 1.75em auto 1em;
+  padding: 0 1em 0.5em;
+  max-width: 42rem;
   font-family: $global-font-family;
   font-size: $type-size-7;
   color: var(--global-text-color-light);
-  line-height: 1.6;
+  line-height: 1.5;
 
   p {
-    margin: 0 0 0.65em;
+    margin: 0 0 0.5em;
   }
 
   &__copyright {
@@ -21,18 +21,33 @@
 
   &__stats {
     letter-spacing: 0.01em;
+    margin-bottom: 0.75em;
   }
 
   &__map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.75em;
+    display: inline-block;
+    max-width: 280px;
+    margin: 0 auto;
+    line-height: 0;
     overflow: hidden;
+    border-radius: 4px;
 
     script {
       display: block;
       margin: 0 auto;
     }
+
+    iframe {
+      display: block;
+      max-width: 100% !important;
+      margin: 0 auto !important;
+    }
+  }
+}
+
+.page__footer footer {
+  .page__footer-visitors {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
