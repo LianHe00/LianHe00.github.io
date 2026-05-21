@@ -9,9 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="about-home" markdown="1">
+
 I received my bachelor's degree in Computer Science and Technology from the School of Computer Science, Beijing Institute of Technology (BIT). Currently, I am a Ph.D. student in the combined master's–doctoral program at BIT, advised by Prof. Gangyi Ding. I am also conducting research at the Beijing Zhongguancun Academy, under the supervision of Prof. Liqiang Nie and Prof. Meng Liu. My research interests lie in embodied AI and affordance perception.
 
-Education
+📖 Education
 ======
 
 <ul class="education-list" markdown="0">
@@ -58,33 +60,39 @@ Education
 📝 Publications
 ======
 
-2026
+<div class="publication-year" markdown="0"><span class="publication-year__badge">2026</span></div>
+<ul class="publication-list" markdown="0">
+  <li class="publication-item">
+    <p class="publication-item__title"><span class="publication-item__title-text">Task-Aware 3D Affordance Segmentation via 2D Guidance and Geometric Refinement</span></p>
+    <p class="publication-item__authors"><strong>Lian He</strong>, Meng Liu, Qilang Ye, Yu Zhou, Xiang Deng, Gangyi Ding</p>
+    <p class="publication-item__venue">AAAI 2026 (CCF-A)</p>
+  </li>
+  <li class="publication-item">
+    <p class="publication-item__title"><span class="publication-item__title-text">SUGAR: Learning Skeleton Representation with Visual-Motion Knowledge for Action Recognition</span></p>
+    <p class="publication-item__authors">Qilang Ye, Yu Zhou, <strong>Lian He</strong>, Jie Zhang, Xuanming Guo, Jiayu Zhang, Mingkui Tan, Weicheng Xie, Yue Sun, Tao Tan, Xiaochen Yuan, Ghada Khoriba, Zitong Yu</p>
+    <p class="publication-item__venue">AAAI 2026 (CCF-A)</p>
+  </li>
+</ul>
 
-* Task-Aware 3D Affordance Segmentation via 2D Guidance and Geometric Refinement
+<div class="publication-year" markdown="0"><span class="publication-year__badge">2025</span></div>
+<ul class="publication-list" markdown="0">
+  <li class="publication-item">
+    <p class="publication-item__title"><span class="publication-item__title-text">Research on Modeling and Simulation of Collective Mechanical Props Performance Behavior</span></p>
+    <p class="publication-item__authors"><strong>Lian He</strong>, Kexiang Huang, Dapeng Yan, Ruida Tang, Gangyi Ding</p>
+  </li>
+</ul>
 
-* Lian He, Meng Liu, Qilang Ye, Yu Zhou, Xiang Deng, Gangyi Ding
+<div class="publication-year" markdown="0"><span class="publication-year__badge">2024</span></div>
+<ul class="publication-list" markdown="0">
+  <li class="publication-item">
+    <p class="publication-item__title"><span class="publication-item__title-text">Deep Learning Improved Social Force Model to Simulate Crowd in Varying Scenes</span></p>
+    <p class="publication-item__authors">Dapeng Yan, Chongzhi Bai, <strong>Lian He</strong>, Gangyi Ding</p>
+  </li>
+  <li class="publication-item">
+    <p class="publication-item__title"><span class="publication-item__title-text">Enhanced crowd dynamics simulation with deep learning and improved social force model</span></p>
+    <p class="publication-item__authors">Dapeng Yan, Gangyi Ding, Kexiang Huang, Chongzhi Bai, <strong>Lian He</strong>, Longfei Zhang</p>
+  </li>
+</ul>
 
-* AAAI 2026(CCF-A)
-
-* SUGAR: Learning Skeleton Representation with Visual-Motion Knowledge for Action Recognition
-
-* Qilang Ye, Yu Zhou, Lian He, Jie Zhang, Xuanming Guo, Jiayu Zhang, Mingkui Tan, Weicheng Xie, Yue Sun, Tao Tan, Xiaochen Yuan, Ghada Khoriba, Zitong Yu
-
-* AAAI 2026(CCF-A)
-
-2025 
-
-* Research on Modeling and Simulation of Collective Mechanical Props Performance Behavior
-
-* Lian He, Kexiang Huang, Dapeng Yan, Ruida Tang, Gangyi Ding
-
-2024
-
-* Deep Learning Improved Social Force Model to Simulate Crowd in Varying Scenes
-
-* Dapeng Yan, Chongzhi Bai, Lian He, Gangyi Ding
-
-* Enhanced crowd dynamics simulation with deep learning and improved social force model
-
-* Dapeng Yan, Gangyi Ding, Kexiang Huang, Chongzhi Bai, Lian He, Longfei Zhang
+</div>
 
