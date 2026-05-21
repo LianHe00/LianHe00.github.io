@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="about-home" markdown="1">
 
-I received my bachelor's degree in Computer Science and Technology from the School of Computer Science, Beijing Institute of Technology (BIT). Currently, I am a Ph.D. student in the combined master's–doctoral program at BIT, advised by Prof. Gangyi Ding. I am also conducting research at the Beijing Zhongguancun Academy, under the supervision of Prof. Liqiang Nie and Prof. Meng Liu. My research interests lie in embodied AI and affordance perception.
+I received my bachelor's degree in Computer Science and Technology from the School of Computer Science, Beijing Institute of Technology (BIT). Currently, I am a Ph.D. student in the combined master's–doctoral program at BIT, advised by **Prof. Gangyi Ding**. I am also conducting research at the Beijing Zhongguancun Academy, under the supervision of **Prof. Liqiang Nie** and **Prof. Meng Liu**. My research interests lie in embodied AI and affordance perception.
 
 <h2 id="education">📖 Education</h2>
 
