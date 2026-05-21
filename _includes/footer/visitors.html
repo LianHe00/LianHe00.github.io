@@ -8,11 +8,6 @@
     &nbsp;|&nbsp;
     Unique Visitors: <span id="busuanzi_site_uv">...</span>
   </p>
-  {% if site.footer_visitors.clustrmaps_id and site.footer_visitors.clustrmaps_id != "" %}
-  <div class="page__footer-visitors__map">
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d={{ site.footer_visitors.clustrmaps_id }}&cl=ffffff&w={{ site.footer_visitors.clustrmaps_width | default: 500 }}&t=tt"></script>
-  </div>
-  {% endif %}
 </div>
 <script async src="https://busuanzi-api.clii.cn/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {% endif %}

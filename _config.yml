@@ -128,12 +128,10 @@ atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
-# Footer visitor counter and map (https://clustrmaps.com)
+# Footer visitor counter
 footer_visitors:
   enabled                : true
   copyright_name         : "Lian He"
-  clustrmaps_id          : "HIPqhW-ZYzFpNlSvMArfRBt9uu4ZDyE2yGvMsRe-LMw"
-  clustrmaps_width       : 280
 
 
 # SEO Related

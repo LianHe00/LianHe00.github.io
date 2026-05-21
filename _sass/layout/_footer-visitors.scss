@@ -1,4 +1,4 @@
-/* Footer visitor stats and map widget */
+/* Footer visitor stats */
 
 .page__footer-visitors {
   text-align: center;
@@ -21,27 +21,7 @@
 
   &__stats {
     letter-spacing: 0.01em;
-    margin-bottom: 0.75em;
-  }
-
-  &__map {
-    display: inline-block;
-    max-width: 280px;
-    margin: 0 auto;
-    line-height: 0;
-    overflow: hidden;
-    border-radius: 4px;
-
-    script {
-      display: block;
-      margin: 0 auto;
-    }
-
-    iframe {
-      display: block;
-      max-width: 100% !important;
-      margin: 0 auto !important;
-    }
+    margin-bottom: 0;
   }
 }
 
