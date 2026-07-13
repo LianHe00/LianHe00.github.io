@@ -22,7 +22,7 @@ My research interests lie in embodied AI, affordance perception and spatial inte
     <div class="education-item__header">
       <span class="education-item__dates">2024.09 - Present</span>
       <span class="education-item__sep">|</span>
-      <strong class="education-item__degree">Combined M.S.–Ph.D. in computer science and technology</strong>
+      <strong class="education-item__degree">Ph.D. in computer science and technology</strong>
     </div>
     <span class="education-item__org">Beijing Zhongguancun Academy</span>
   </li>
@@ -31,7 +31,7 @@ My research interests lie in embodied AI, affordance perception and spatial inte
       <span class="education-item__dates">2022.09 - Present</span>
       <span class="education-item__sep">|</span>
       <img class="education-item__logo" src="{{ base_path }}/images/logo.svg" alt="Beijing Institute of Technology" width="22" height="22" />
-      <strong class="education-item__degree">Combined M.S.–Ph.D. in computer science and technology</strong>
+      <strong class="education-item__degree">Ph.D. in computer science and technology</strong>
     </div>
     <span class="education-item__org">School of Computer Science, Beijing Institute of Technology</span>
   </li>
