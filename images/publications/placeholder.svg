@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Publication teaser placeholder">
+  <rect width="320" height="200" fill="#f3f4f6"/>
+  <rect x="24" y="24" width="272" height="152" rx="8" fill="#e5e7eb" stroke="#d1d5db" stroke-width="1"/>
+  <circle cx="88" cy="88" r="24" fill="#d1d5db"/>
+  <path d="M76 98 L88 78 L100 98 Z" fill="#9ca3af"/>
+  <rect x="120" y="72" width="140" height="10" rx="5" fill="#d1d5db"/>
+  <rect x="120" y="92" width="110" height="10" rx="5" fill="#e5e7eb"/>
+  <rect x="120" y="112" width="125" height="10" rx="5" fill="#e5e7eb"/>
+</svg>

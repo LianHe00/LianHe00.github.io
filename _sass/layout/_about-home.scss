@@ -44,93 +44,146 @@ html:has(.about-home) {
   }
 }
 
-/* Publications (homepage) */
+/* Publications (homepage) — card layout with teaser image */
 
-.publication-year {
-  margin: 1em 0 0.35em;
+.pub-cards {
+  list-style: none;
+  margin: 0.35em 0 0;
+  padding: 0;
+}
+
+.pub-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--global-border-color);
 
   &:first-child {
-    margin-top: 0.35em;
+    padding-top: 0.5rem;
   }
-}
-
-.publication-year__badge {
-  display: inline-block;
-  background: transparent;
-  color: var(--global-text-color);
-  font-size: 0.95em;
-  font-weight: 700;
-  line-height: 1.2;
-  padding: 0;
-}
-
-.publication-list {
-  list-style: disc;
-  margin: 0 0 0.5em 1.25em;
-  padding: 0;
-}
-
-.publication-item {
-  margin-bottom: 1em;
 
   &:last-child {
-    margin-bottom: 0.25em;
+    border-bottom: 0;
+    padding-bottom: 0.25rem;
   }
 
-  p {
+  p,
+  h3 {
     margin: 0;
-    line-height: 1.35;
   }
 }
 
-.publication-item__title {
-  margin: 0 0 0.1em;
+.pub-card__media {
+  flex: 0 0 31%;
+  max-width: 220px;
+  min-width: 120px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--global-border-color);
+    background: var(--global-bg-color);
+  }
+}
+
+.pub-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-card__title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--global-text-color);
+  margin-bottom: 0.2em;
+}
+
+.pub-card__venue {
+  margin-bottom: 0.25em;
+  line-height: 1.35;
 
   a {
-    color: var(--global-link-color);
+    color: #c0392b;
+    font-weight: 700;
     text-decoration: underline;
-    font-weight: 400;
 
     &:hover {
+      color: #a93226;
       text-decoration: underline;
     }
   }
 }
 
-.publication-item__title-text {
-  color: var(--global-link-color);
-  text-decoration: underline;
-}
-
-.publication-item__authors {
-  margin: 0 0 0.05em;
+.pub-card__authors {
+  margin-bottom: 0.35em;
+  line-height: 1.45;
   color: var(--global-text-color);
 }
 
-.publication-item__venue {
-  margin: 0;
-  color: #c0392b;
-  font-weight: 700;
-  line-height: 1.35;
+.pub-card__desc {
+  margin-bottom: 0.65em;
+  line-height: 1.45;
+  color: var(--global-text-color-light);
 }
 
-/* Honors & Awards, Academic Services — match publication line spacing */
+.pub-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.pub-card__btn {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  background: #6b7280;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+
+  &:hover {
+    background: #4b5563;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@include breakpoint(max-width $medium) {
+  .pub-card {
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .pub-card__media {
+    flex-basis: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* 调用方式：在 _pages/about.md 中使用 .pub-cards / .pub-card 结构；样式由 assets/css/main.scss 自动引入本文件 */
+
+/* Honors & Awards — match publication line spacing */
 
 .about-home {
   #honors ~ p,
-  #honors ~ ul,
-  #academic-services ~ p,
-  #academic-services ~ ul {
+  #honors ~ ul {
     line-height: 1.35;
   }
 
-  #honors ~ p,
-  #academic-services ~ p {
+  #honors ~ p {
     margin: 0 0 0.35em;
   }
 
-  #honors ~ ul,
-  #academic-services ~ ul {
+  #honors ~ ul {
     margin: 0 0 0.5em 1.25em;
     padding: 0;
 
