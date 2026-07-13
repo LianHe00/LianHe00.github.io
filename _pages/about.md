@@ -110,7 +110,7 @@ My research interests lie in embodied AI, affordance perception and spatial inte
     </div>
     <div class="pub-card__body">
       <h3 class="pub-card__title">Deep Learning Improved Social Force Model to Simulate Crowd in Varying Scenes</h3>
-      <p class="pub-card__venue"><a href="https://ieeexplore.ieee.org/abstract/document/10548157/" target="_blank" rel="noopener noreferrer">IEEE 2024</a></p>
+      <p class="pub-card__venue"><a href="https://ieeexplore.ieee.org/abstract/document/10548157/" target="_blank" rel="noopener noreferrer">ICAACE 2024</a></p>
       <p class="pub-card__authors">Dapeng Yan, Chongzhi Bai, <strong>Lian He</strong>, Gangyi Ding</p>
       <div class="pub-card__actions">
         <a class="pub-card__btn" href="https://ieeexplore.ieee.org/abstract/document/10548157/" target="_blank" rel="noopener noreferrer">Paper</a>
