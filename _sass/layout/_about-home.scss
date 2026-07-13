@@ -169,13 +169,91 @@ html:has(.about-home) {
   }
 }
 
-/* 调用方式：在 _pages/about.md 中使用 .pub-cards / .pub-card 结构；样式由 assets/css/main.scss 自动引入本文件 */
+/* Selected Projects (homepage) — card layout with GIF demo */
+
+.project-cards {
+  list-style: none;
+  margin: 0.35em 0 0;
+  padding: 0;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:first-child {
+    padding-top: 0.5rem;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    padding-bottom: 0.25rem;
+  }
+
+  p,
+  h3 {
+    margin: 0;
+  }
+}
+
+.project-card__media {
+  flex: 0 0 31%;
+  max-width: 220px;
+  min-width: 120px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--global-border-color);
+    background: var(--global-bg-color);
+  }
+}
+
+.project-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-card__title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--global-text-color);
+  margin-bottom: 0.35em;
+}
+
+.project-card__desc {
+  line-height: 1.45;
+  color: var(--global-text-color-light);
+}
+
+@include breakpoint(max-width $medium) {
+  .project-card {
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .project-card__media {
+    flex-basis: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* 调用方式：在 _pages/about.md 中使用 .project-cards / .project-card 或 .pub-cards / .pub-card 结构；样式由 assets/css/main.scss 自动引入本文件 */
 
 /* Honors & Awards — match publication line spacing */
 
 .about-home {
   #honors ~ p,
-  #honors ~ ul {
+  #honors ~ ul:not(.project-cards):not(.pub-cards) {
     line-height: 1.35;
   }
 
@@ -183,7 +261,7 @@ html:has(.about-home) {
     margin: 0 0 0.35em;
   }
 
-  #honors ~ ul {
+  #honors ~ ul:not(.project-cards):not(.pub-cards) {
     margin: 0 0 0.5em 1.25em;
     padding: 0;
 
@@ -197,7 +275,7 @@ html:has(.about-home) {
     }
   }
 
-  #honors ~ ul:last-of-type {
+  #honors ~ ul:not(.project-cards):not(.pub-cards):last-of-type {
     margin-bottom: 0.25em;
   }
 
