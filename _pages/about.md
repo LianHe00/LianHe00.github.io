@@ -46,21 +46,6 @@ My research interests lie in embodied AI, affordance perception and spatial inte
   </li>
 </ul>
 
-<h2 id="honors">🏆 Honors & Awards</h2>
-
-**Grants**
-
-* Young Talent Support Program for Doctoral Students, 2026, CAST. (**中国科协青年人才托举工程博士生专项计划**)
-* China International College Students' Innovation Competition 2023, the silver medal.
-* The 18th  "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition, the third prize.
-* Participation Certificate in GUINNESS WORLD RECORDS.
-
-
-**Scholarships**
-
-* 2022-2023: Master's Academic Scholarship
-* 2024-2025: Doctoral Academic Scholarship
-
 <h2 id="selected-projects">🚀 Selected Projects</h2>
 
 <ul class="project-cards" markdown="0">
@@ -70,7 +55,7 @@ My research interests lie in embodied AI, affordance perception and spatial inte
     </div>
     <div class="project-card__body">
       <h3 class="project-card__title">Integrated Simulation System for Creation, Choreography and Performance of Beijing 2022 Olympic and Paralympic Winter Games</h3>
-      <p class="project-card__desc">It builds an integrated full-process simulation system for the whole stage production process.</p>
+      <p class="project-card__desc">It builds an integrated full-process simulation system for the whole stage production process. Developed with Unreal Engine.</p>
     </div>
   </li>
   <li class="project-card">
@@ -79,14 +64,14 @@ My research interests lie in embodied AI, affordance perception and spatial inte
     </div>
     <div class="project-card__body">
       <h3 class="project-card__title">Fantastic Journey to Sanxingdui</h3>
-      <p class="project-card__desc">The first immersive cloud interactive space enables instant travel back to the ancient Shu Kingdom 3,000 years ago for anytime, anywhere exploration.</p>
+      <p class="project-card__desc">The first immersive cloud interactive space enables instant travel back to the ancient Shu Kingdom 3,000 years ago for anytime, anywhere exploration. Developed with Unreal Engine.</p>
     </div>
   </li>
 </ul>
 
 <!-- Selected Projects 调用方式：在 _pages/about.md 的 project-cards 列表中复制 project-card 结构；左侧动图放在 images/projects/ 目录（支持 .gif）；替换 project-card__title 与 project-card__desc 即可 -->
 
-<h2 id="publications">📝 Publications</h2>
+<h2 id="publications">📝 Selected Publications</h2>
 
 <ul class="pub-cards" markdown="0">
   <li class="pub-card">
@@ -158,6 +143,21 @@ My research interests lie in embodied AI, affordance perception and spatial inte
 </ul>
 
 <!-- Publications 调用方式：在 _pages/about.md 的 pub-cards 列表中复制 pub-card 结构；替换图片路径、标题、venue 链接、作者、摘要与 Paper/Code 按钮链接；缩略图放在 images/publications/ 目录下 -->
+
+<h2 id="honors">🏆 Honors & Awards</h2>
+
+**Grants**
+
+* Young Talent Support Program for Doctoral Students, 2026, CAST. (**中国科协青年人才托举工程博士生专项计划**)
+* China International College Students' Innovation Competition 2023, the silver medal.
+* The 18th  "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition, the third prize.
+* Participation Certificate in GUINNESS WORLD RECORDS.
+
+
+**Scholarships**
+
+* 2022-2023: Master's Academic Scholarship
+* 2024-2025: Doctoral Academic Scholarship
 
 </div>
 

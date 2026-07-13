@@ -4,11 +4,11 @@ main:
   - title: "Education"
     url: /#education
 
-  - title: "Honors & Awards"
-    url: /#honors
-
   - title: "Selected Projects"
     url: /#selected-projects
 
   - title: "Publications"
     url: /#publications
+
+  - title: "Honors & Awards"
+    url: /#honors
