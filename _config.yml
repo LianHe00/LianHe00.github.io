@@ -23,7 +23,7 @@ repository               : "LianHe00/LianHe00.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "LianHe.jpg"
+  avatar           : "LianHe-profile.jpg"
   name             : "LianHe"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student @ BIT"
